@@ -1,0 +1,70 @@
+Random Weights
+acc:    0.9547781569965871
+Confusion Matrix
+[[283  35]
+ [ 38 816]]
+Classification Report
+              precision    recall  f1-score   support
+
+           N       0.88      0.89      0.89       318
+           P       0.96      0.96      0.96       854
+
+   micro avg       0.94      0.94      0.94      1172
+   macro avg       0.92      0.92      0.92      1172
+weighted avg       0.94      0.94      0.94      1172
+_______________________________________________________________________________
+
+ImageNet Weights
+acc:    0.9684300341296929
+Confusion Matrix
+[[296  22]
+ [ 35 819]]
+Classification Report
+              precision    recall  f1-score   support
+
+           N       0.89      0.93      0.91       318
+           P       0.97      0.96      0.97       854
+
+   micro avg       0.95      0.95      0.95      1172
+   macro avg       0.93      0.94      0.94      1172
+weighted avg       0.95      0.95      0.95      1172
+_______________________________________________________________________________
+
+With HAM trained weights
+acc:    0.96160409556314
+Confusion Matrix
+[[297  21]
+ [ 44 810]]
+Classification Report
+              precision    recall  f1-score   support
+
+           N       0.87      0.93      0.90       318
+           P       0.97      0.95      0.96       854
+
+   micro avg       0.94      0.94      0.94      1172
+   macro avg       0.92      0.94      0.93      1172
+weighted avg       0.95      0.94      0.95      1172
+_______________________________________________________________________________
+
+Decision Tree Classifier
+Test data metrics:
+              precision    recall  f1-score   support
+
+      NORMAL       0.76      0.74      0.75       321
+   PNEUMONIA       0.90      0.91      0.91       851
+
+   micro avg       0.87      0.87      0.87      1172
+   macro avg       0.83      0.83      0.83      1172
+weighted avg       0.86      0.87      0.87      1172
+_______________________________________________________________________________
+
+Random Forest Classifier
+Test data metrics:
+              precision    recall  f1-score   support
+
+      NORMAL       0.90      0.86      0.88       321
+   PNEUMONIA       0.95      0.96      0.96       851
+
+   micro avg       0.94      0.94      0.94      1172
+   macro avg       0.92      0.91      0.92      1172
+weighted avg       0.93      0.94      0.93      1172

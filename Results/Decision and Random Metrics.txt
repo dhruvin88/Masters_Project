@@ -1,0 +1,109 @@
+
+DecisionTreeClassifier with Normalized Images
+
+Test data metrics:
+              precision    recall  f1-score   support
+
+       akiec       0.09      0.10      0.09        60
+         bcc       0.20      0.21      0.20        97
+         bkl       0.25      0.28      0.26       224
+          df       0.00      0.00      0.00        27
+         mel       0.20      0.19      0.19       246
+          nv       0.77      0.76      0.76      1320
+        vasc       0.05      0.07      0.06        29
+
+   micro avg       0.57      0.57      0.57      2003
+   macro avg       0.22      0.23      0.23      2003
+weighted avg       0.57      0.57      0.57      2003
+_______________________________________________________________________________
+
+DecisionTreeClassifier without Normalized Images
+
+Test data metrics:
+              precision    recall  f1-score   support
+
+       akiec       0.25      0.22      0.23        60
+         bcc       0.21      0.25      0.22        97
+         bkl       0.27      0.24      0.25       224
+          df       0.04      0.04      0.04        27
+         mel       0.24      0.23      0.24       246
+          nv       0.78      0.80      0.79      1320
+        vasc       0.23      0.24      0.23        29
+
+   micro avg       0.60      0.60      0.60      2003
+   macro avg       0.29      0.29      0.29      2003
+weighted avg       0.60      0.60      0.60      2003
+_______________________________________________________________________________
+
+DecisionTreeClassifier with Rescaling
+
+Test data metrics:
+              precision    recall  f1-score   support
+
+       akiec       0.25      0.22      0.23        60
+         bcc       0.21      0.25      0.22        97
+         bkl       0.27      0.24      0.25       224
+          df       0.04      0.04      0.04        27
+         mel       0.24      0.23      0.24       246
+          nv       0.78      0.80      0.79      1320
+        vasc       0.23      0.24      0.23        29
+
+   micro avg       0.60      0.60      0.60      2003
+   macro avg       0.29      0.29      0.29      2003
+weighted avg       0.60      0.60      0.60      2003
+_______________________________________________________________________________
+
+
+
+Random Forest without Normalized Images
+
+Test data metrics:
+              precision    recall  f1-score   support
+
+       akiec       0.48      0.17      0.25        60
+         bcc       0.40      0.35      0.38        97
+         bkl       0.46      0.36      0.40       224
+          df       0.00      0.00      0.00        27
+         mel       0.49      0.14      0.22       246
+          nv       0.76      0.95      0.84      1320
+        vasc       0.00      0.00      0.00        29
+
+   micro avg       0.70      0.70      0.70      2003
+   macro avg       0.37      0.28      0.30      2003
+weighted avg       0.65      0.70      0.65      2003
+_______________________________________________________________________________
+
+Random Forest with Normalized Images
+
+Test data metrics:
+              precision    recall  f1-score   support
+
+       akiec       0.33      0.02      0.03        60
+         bcc       0.48      0.22      0.30        97
+         bkl       0.44      0.33      0.38       224
+          df       0.00      0.00      0.00        27
+         mel       0.50      0.02      0.05       246
+          nv       0.72      0.97      0.83      1320
+        vasc       0.00      0.00      0.00        29
+
+   micro avg       0.69      0.69      0.69      2003
+   macro avg       0.35      0.22      0.23      2003
+weighted avg       0.62      0.69      0.61      2003
+_______________________________________________________________________________
+
+Random Forest with Rescaling
+
+Test data metrics:
+              precision    recall  f1-score   support
+
+       akiec       0.48      0.17      0.25        60
+         bcc       0.40      0.35      0.38        97
+         bkl       0.46      0.36      0.40       224
+          df       0.00      0.00      0.00        27
+         mel       0.49      0.14      0.22       246
+          nv       0.76      0.95      0.84      1320
+        vasc       0.00      0.00      0.00        29
+
+   micro avg       0.70      0.70      0.70      2003
+   macro avg       0.37      0.28      0.30      2003
+weighted avg       0.65      0.70      0.65      2003
