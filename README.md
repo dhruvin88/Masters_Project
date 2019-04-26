@@ -13,7 +13,7 @@ Kaggle Medical Image Datasets
 ## Files
 **Please change all path directories when using the files**
 1. [augment_data.py](augment_data.py) is use to testing augmenting data when training.
-2. [image_preprocessing_test.py] (image_preprocessing_test.py) was used to test if equalization the images benefits the learning.
+2. [image_preprocessing_test.py](image_preprocessing_test.py) was used to test if equalization the images benefits the learning.
 3. [model_utils.py](model_utils.py) contains models utils methods.
 4. [my_model.py](my_model.py) was used as a test model.
 5. [plot.py](plot.py) used to create line graph of training with ImageNet weights compared to random weights.
