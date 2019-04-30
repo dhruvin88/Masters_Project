@@ -2,7 +2,7 @@
 Masters Project on Transfer Learning in CNNs with Medical Images
 
 ## Project Thesis
-[Click here to read my Thesis](Thesis.pdf)
+[Click here to read my Thesis](Thesis.pdf) </br>
 [Click here to view my defense slides](Project_Defense_Slides.pdf)
 
 ## Datasets
